@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios 2</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>EJERCICIOS 2</h1>
+    </header>
+
+    <div>
+        <h2>Decisión simple</h2>
+        <label for="sueldo">Sueldo</label>
+        <input type="number" id="sueldo">
+        <button onclick="calcular()">Calcular</button>
+    </div>
+    <p>El nuevo sueldo es: <span id="nuevosueldo"></span></p>
+
+    <div>
+        <h2>Decisión doble</h2>
+        <label for="sueldo2">Sueldo</label>
+        <input type="number" id="sueldo2">
+        <button onclick="calcular2()">Calcular</button>
+    </div>
+    <p>El nuevo sueldo es: <span id="nuevosueldo2"></span></p>
+
+    <div>
+        <h2>Decisión múltiple</h2>
+        <label for="sueldo3">Sueldo</label>
+        <input type="number" id="sueldo3">
+        <label for="categoria">Categoría</label>
+        <input type="number" id="categoria" min="1" max="4">
+        <button onclick="calcular3()">Calcular</button>
+    </div>
+    <p>El nuevo sueldo es: <span id="nuevosueldo3"></span></p>
+
+    <script src="./calculos.js"></script>
+
+</body>
+</html>
